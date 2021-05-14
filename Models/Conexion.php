@@ -10,7 +10,7 @@
         }
 
         public function getProductos(){
-            $query = $this-> conn->query('SELECT * FROM productos');
+            $query = $this-> conn->query('SELECT * FROM producto');
 
             $retorno = [];
             
